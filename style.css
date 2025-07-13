@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: brown;
+}
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+span{
+    color: yellow;
+}
+
+h1{
+    font-size: 64px;
+    gap: 100px;
+    margin-bottom:50px ;
+}
+
+.menu{
+    display: flex;
+}
+
+
+.menu{
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.menu p{
+width: 48px;
+}
+
+.nav{
+ font-size: ;
+  
+}
+.card{
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.card h3{
+margin: 18px 0;
+
+}
+
+.card p{
+    padding: 24px 30px;
+}
+
+main{
+    padding-top:24px ;
+}
+
+.card p{
+    padding: 24px;
+}
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
